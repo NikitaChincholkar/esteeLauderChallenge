@@ -13,7 +13,37 @@
 		1189207C2882431A00A0A9FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1189207A2882431A00A0A9FA /* Main.storyboard */; };
 		1189207E2882431E00A0A9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1189207D2882431E00A0A9FA /* Assets.xcassets */; };
 		118920812882431E00A0A9FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1189207F2882431E00A0A9FA /* LaunchScreen.storyboard */; };
+		11C5436328885B32008FA30F /* LastQuizQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5436228885B32008FA30F /* LastQuizQuestionViewController.swift */; };
+		11C5438F28892360008FA30F /* NightSerumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5438E2889235F008FA30F /* NightSerumViewController.swift */; };
+		11C5439428892394008FA30F /* ColorEnvyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5439328892394008FA30F /* ColorEnvyViewController.swift */; };
+		11C54396288923CE008FA30F /* RoseDeGrasseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C54395288923CE008FA30F /* RoseDeGrasseViewController.swift */; };
+		11C54398288923E9008FA30F /* DareToLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C54397288923E9008FA30F /* DareToLoveViewController.swift */; };
+		11C5439A288923FC008FA30F /* EyeCreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C54399288923FC008FA30F /* EyeCreamViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11C543552887BA7F008FA30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11C5434F2887BA7F008FA30F /* DropDown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A76440F1B676C2300BF1A2D;
+			remoteInfo = Demo;
+		};
+		11C543572887BA7F008FA30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11C5434F2887BA7F008FA30F /* DropDown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A7644241B676C2300BF1A2D;
+			remoteInfo = DropDownTests;
+		};
+		11C543592887BA7F008FA30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11C5434F2887BA7F008FA30F /* DropDown.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0AB5D8711D0EEECD002D3A17;
+			remoteInfo = DropDown;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		118920712882431A00A0A9FA /* esteeLauderChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esteeLauderChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +54,13 @@
 		1189207D2882431E00A0A9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		118920802882431E00A0A9FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		118920822882431E00A0A9FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C5434F2887BA7F008FA30F /* DropDown.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DropDown.xcodeproj; path = ../../../Downloads/DropDown/DropDown.xcodeproj; sourceTree = "<group>"; };
+		11C5436228885B32008FA30F /* LastQuizQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastQuizQuestionViewController.swift; sourceTree = "<group>"; };
+		11C5438E2889235F008FA30F /* NightSerumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightSerumViewController.swift; sourceTree = "<group>"; };
+		11C5439328892394008FA30F /* ColorEnvyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEnvyViewController.swift; sourceTree = "<group>"; };
+		11C54395288923CE008FA30F /* RoseDeGrasseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseDeGrasseViewController.swift; sourceTree = "<group>"; };
+		11C54397288923E9008FA30F /* DareToLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DareToLoveViewController.swift; sourceTree = "<group>"; };
+		11C54399288923FC008FA30F /* EyeCreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCreamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +77,7 @@
 		118920682882431A00A0A9FA = {
 			isa = PBXGroup;
 			children = (
+				11C5434F2887BA7F008FA30F /* DropDown.xcodeproj */,
 				118920732882431A00A0A9FA /* esteeLauderChallenge */,
 				118920722882431A00A0A9FA /* Products */,
 			);
@@ -60,11 +98,27 @@
 				118920762882431A00A0A9FA /* SceneDelegate.swift */,
 				118920782882431A00A0A9FA /* ViewController.swift */,
 				1189207A2882431A00A0A9FA /* Main.storyboard */,
+				11C54395288923CE008FA30F /* RoseDeGrasseViewController.swift */,
+				11C54397288923E9008FA30F /* DareToLoveViewController.swift */,
+				11C54399288923FC008FA30F /* EyeCreamViewController.swift */,
+				11C5439328892394008FA30F /* ColorEnvyViewController.swift */,
+				11C5438E2889235F008FA30F /* NightSerumViewController.swift */,
+				11C5436228885B32008FA30F /* LastQuizQuestionViewController.swift */,
 				1189207D2882431E00A0A9FA /* Assets.xcassets */,
 				1189207F2882431E00A0A9FA /* LaunchScreen.storyboard */,
 				118920822882431E00A0A9FA /* Info.plist */,
 			);
 			path = esteeLauderChallenge;
+			sourceTree = "<group>";
+		};
+		11C543502887BA7F008FA30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11C543562887BA7F008FA30F /* Demo.app */,
+				11C543582887BA7F008FA30F /* DropDownTests.xctest */,
+				11C5435A2887BA7F008FA30F /* DropDown.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,12 +167,42 @@
 			mainGroup = 118920682882431A00A0A9FA;
 			productRefGroup = 118920722882431A00A0A9FA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 11C543502887BA7F008FA30F /* Products */;
+					ProjectRef = 11C5434F2887BA7F008FA30F /* DropDown.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				118920702882431A00A0A9FA /* esteeLauderChallenge */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		11C543562887BA7F008FA30F /* Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Demo.app;
+			remoteRef = 11C543552887BA7F008FA30F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		11C543582887BA7F008FA30F /* DropDownTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DropDownTests.xctest;
+			remoteRef = 11C543572887BA7F008FA30F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		11C5435A2887BA7F008FA30F /* DropDown.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DropDown.framework;
+			remoteRef = 11C543592887BA7F008FA30F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1189206F2882431A00A0A9FA /* Resources */ = {
@@ -140,7 +224,13 @@
 			files = (
 				118920792882431A00A0A9FA /* ViewController.swift in Sources */,
 				118920752882431A00A0A9FA /* AppDelegate.swift in Sources */,
+				11C5439A288923FC008FA30F /* EyeCreamViewController.swift in Sources */,
+				11C54396288923CE008FA30F /* RoseDeGrasseViewController.swift in Sources */,
+				11C5439428892394008FA30F /* ColorEnvyViewController.swift in Sources */,
 				118920772882431A00A0A9FA /* SceneDelegate.swift in Sources */,
+				11C54398288923E9008FA30F /* DareToLoveViewController.swift in Sources */,
+				11C5436328885B32008FA30F /* LastQuizQuestionViewController.swift in Sources */,
+				11C5438F28892360008FA30F /* NightSerumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
