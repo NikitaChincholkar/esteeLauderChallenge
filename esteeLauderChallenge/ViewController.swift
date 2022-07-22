@@ -13,14 +13,9 @@ class ViewController: UIViewController {
     //MARK: - Properties
     var tableView: UITableView!
     
-    var pullsDown: Bool = true
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    @IBAction func newPullDown(_ sender: UIButton) {
-        pullsDown = true
-    }
     
 }
